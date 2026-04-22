@@ -1,5 +1,6 @@
 # macOS
 .DS_Store
+**/.DS_Store
 .AppleDouble
 .LSOverride
 
@@ -10,8 +11,13 @@
 *.swo
 *~
 
-# Claude Code
-.claude/
+# OS
+Thumbs.db
+ehthumbs.db
+Desktop.ini
 
-# Discussion output
+# Output
 output/
+
+# Examples (placeholder for case studies)
+examples/
