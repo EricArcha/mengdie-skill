@@ -5,6 +5,8 @@
 
 多视角讨论Skill。协调多个视角Skill进行讨论，产出共识结论+多元观点阵列+保留分歧点。
 
+[**English README**](README_en.md)
+
 ## 核心定位
 
 梦蝶取自庄周梦蝶的典故，象征多视角的交融与思辨。
@@ -81,19 +83,27 @@ mengdie/
 
 ## 与女娲和谛听的关系
 
+| Skill | 仓库 | 用途 |
+|-------|------|------|
+| [女娲 (Nuwa)](https://github.com/alchaincyf/nuwa-skill) | 独立项目 | 蒸馏真实人物的思维方式 |
+| [谛听 (Diting)](https://github.com/EricArcha/diting-skill) | 本项目 | 蒸馏虚构角色的表演风格 |
+
+梦蝶是 Skill 编排层，调用女娲和谛听生成的 Skill 进行多视角讨论。
+
+## 安装方式
+
+### 终端安装
+
+```bash
+git clone https://github.com/EricArcha/mengdie-skill.git ~/.claude/skills/mengdie
 ```
-┌─────────────────────────────────────────────────┐
-│           梦蝶（Skill编排层）                     │
-│   调用：女娲蒸馏Skill + 谛听生成Skill              │
-└─────────────────────────────────────────────────┘
-                          │
-        ┌─────────────────┼─────────────────┐
-        ▼                 ▼                 ▼
-┌─────────────┐  ┌─────────────┐  ┌─────────────┐
-│ 女娲        │  │ 谛听        │  │ 其他Skill   │
-│ (真实人物)  │  │ (虚构角色)  │  │             │
-└─────────────┘  └─────────────┘  └─────────────┘
+
+或手动复制：
+```bash
+cp -r mengdie ~/.claude/skills/
 ```
+
+重启 Claude Code 或输入 `/skills reload` 即可使用。
 
 ---
 
