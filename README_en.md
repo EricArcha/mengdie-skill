@@ -90,6 +90,28 @@ Resume:
 | Consensus conclusion | Reflects actual discussion, not compromise |
 | Preserved disagreements | Genuinely exist, not manufactured |
 
+## Discussion Highlights
+
+Mengdie produces not debate records, but multi-perspective fusion insights. Here are excerpts from two discussions:
+
+### On Love: Destiny vs. Gradual Accumulation
+
+> **Super Dragon Ball Goku**: (shaking head) No. Love isn't something you think about—it's something you feel. Like when Bulma and I adventured together, when Kuririn and I trained together, those were real. Not thought out—actually experienced together.
+
+> **Purple Cloud Fairy (Zixia)**: Right, experience. But before that, you first confirm the person. It's not about confirming after experiencing—once you confirm, you don't waver.
+
+*—Core disagreement between Zixia and Dragon Ball Goku: Is recognition instantaneous or gradual?*
+
+### On Products: Real Artists Ship
+
+> **Steve Jobs**: A product is a gift to the user. You make something, then hand it to the user—that's the most sacred thing in the world. A bad product is an insult to the user. A good product is respect for the user.
+
+> **Elon Musk**: What Trump describes is marketing, not product. Rockets either work or they don't—no reputation. A truly bad product and the company dies. Tesla almost died three times in 2008 because the product was actually good.
+
+> **MrBeast**: Good product = shipped + positively impacted users. Both required.
+
+*—All four participants agreed on one thing: a good product must reach users.*
+
 ---
 
 ## Directory Structure
