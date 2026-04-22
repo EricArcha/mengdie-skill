@@ -409,4 +409,5 @@ description: |
 ---
 
 > 本Skill由「梦蝶 · Mengdie」生成
+> 仓库：https://github.com/EricArcha/mengdie-skill
 > 版本：2.0（按2026-04-23审计报告重构）
