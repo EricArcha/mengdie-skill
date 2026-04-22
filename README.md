@@ -1,17 +1,47 @@
-# 梦蝶 (Mengdie)
+# 梦蝶 (Mengdie Roundtable)
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 [![Claude Code Skill](https://img.shields.io/badge/Claude%20Code-Skill-7B68EE?style=flat)](https://claude.com/claude-code)
 
-多视角讨论Skill。协调多个视角Skill进行讨论，产出共识结论+多元观点阵列+保留分歧点。
+> 「庄周梦蝶，多视角交融，方见真章。」
+
+多视角讨论 Skill。协调多个视角 Skill 进行讨论，产出共识结论 + 多元观点阵列 + 保留分歧点。
 
 [**English README**](README_en.md)
+
+---
+
+## 快速开始
+
+### 安装（终端）
+
+```bash
+git clone https://github.com/EricArcha/mengdie-skill.git ~/.claude/skills/mengdie
+```
+
+或手动复制：
+```bash
+cp -r mengdie ~/.claude/skills/
+```
+
+重启 Claude Code 或输入 `/skills reload` 即可使用。
+
+### 激活
+
+| 中文 | English |
+|------|---------|
+| 「开一个梦蝶讨论」 | "start a Mengdie discussion" |
+| 「开个会吧」 | "let's have a meeting" |
+| 「让XX和XX讨论一下」 | "let XX and XX discuss" |
+| 「梦蝶，议题是XX」 | "Mengdie, topic is XX" |
+
+---
 
 ## 核心定位
 
 梦蝶取自庄周梦蝶的典故，象征多视角的交融与思辨。
 
-梦蝶的核心使命是将多个视角Skill组织成讨论模式，对指定议题进行讨论，产出有价值的结论。
+梦蝶的核心使命是将多个视角 Skill 组织成讨论模式，对指定议题进行讨论，产出有价值的结论。
 
 ## 与辩论的本质区别
 
@@ -38,26 +68,12 @@
 扩展触发词：
 - 「继续上次讨论」→ 读取最近的讨论记录
 
-## 目录结构
-
-```
-mengdie/
-├── SKILL.md                    # 主Skill文件（执行标准）
-├── GOVERNANCE.md               # 治理索引（已精简）
-├── README.md                   # 本文件
-├── references/                 # 参考模板（核心内容已内联到SKILL.md）
-│   ├── round-table-template.md
-│   ├── moderation-protocol.md
-│   └── conclusion-format.md
-├── output/discussions/          # 讨论记录输出
-```
-
-## 执行流程（详细见SKILL.md）
+## 执行流程（详细见 SKILL.md）
 
 | Phase | 内容 | 关键动作 |
 |-------|------|---------|
 | 0 | 启动判断 | 判断完整启动/引导补充/续接讨论 |
-| 1 | 确认参数 | 议题、参与者、主持人、**Skill验证** |
+| 1 | 确认参数 | 议题、参与者、主持人、**Skill 验证** |
 | 2 | 讨论执行 | 开场→第一轮→第二轮→自由讨论→收尾 |
 | 3 | 结论输出 | **先保存**→输出结论 |
 | 4 | 安可 | 用户追问1-3轮 |
@@ -69,7 +85,7 @@ mengdie/
 |------|------|------|
 | 女娲 | XX-perspective | elon-musk-perspective |
 | 谛听 | character-XX | character-wukong-journey |
-| 其他已安装Skill | 直接使用 | character-lindiya-youth |
+| 其他已安装 Skill | 直接使用 | character-lindiya-youth |
 
 ## 质量标准
 
@@ -90,20 +106,20 @@ mengdie/
 
 梦蝶是 Skill 编排层，调用女娲和谛听生成的 Skill 进行多视角讨论。
 
-## 安装方式
+---
 
-### 终端安装
+## 目录结构
 
-```bash
-git clone https://github.com/EricArcha/mengdie-skill.git ~/.claude/skills/mengdie
 ```
-
-或手动复制：
-```bash
-cp -r mengdie ~/.claude/skills/
+mengdie/
+├── SKILL.md                    # 主 Skill 文件（执行标准）
+├── GOVERNANCE.md               # 治理索引（已精简）
+├── README.md                   # 本文件
+├── README_en.md                # English version
+├── references/                 # 参考模板（核心内容已内联到 SKILL.md）
+├── output/discussions/          # 讨论记录输出
+└── LICENSE                    # MIT License
 ```
-
-重启 Claude Code 或输入 `/skills reload` 即可使用。
 
 ---
 

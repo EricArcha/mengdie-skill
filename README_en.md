@@ -1,9 +1,9 @@
-# Mengdie · Multi-Perspective Discussion Skill
+# Mengdie Roundtable · Multi-Perspective Discussion Skill
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 [![Claude Code Skill](https://img.shields.io/badge/Claude%20Code-Skill-7B68EE?style=flat)](https://claude.com/claude-code)
 
-> "Zhuangzi dreamed of a butterfly—a symbol of multiple perspectives merging and debated."
+> "Zhuangzi dreamed of a butterfly—multiple perspectives merging, truths emerge."
 
 Mengdie is a Claude Code skill that orchestrates multiple perspective skills to discuss topics, producing consensus conclusions + diverse viewpoint arrays + preserved disagreements.
 
@@ -24,9 +24,9 @@ Or manual:
 cp -r mengdie ~/.claude/skills/
 ```
 
-### Activation
+Restart Claude Code or type `/skills reload` to activate.
 
-Restart Claude Code or type `/skills reload`, then:
+### Activation
 
 | 中文 | English |
 |------|---------|
@@ -53,23 +53,32 @@ Mengdie is not a debate—it's **multi-perspective symphony**.
 2. **Diverse Viewpoint Array**: Table format, preserving important disagreements
 3. **Preserved Disagreements**: Unresolved important disagreements (with each party's position summary)
 
+## Trigger Words
+
+Start Mengdie:
+- "start a Mengdie discussion"
+- "let's have a meeting"
+- "let XX and XX discuss"
+- "Mengdie, topic is XX"
+
+Resume:
+- "continue last discussion" → Load recent discussion records
+
 ---
 
 ## Relationship with Nuwa and Diting
 
-| Skill | Purpose | Project |
-|-------|---------|---------|
-| [Nuwa](https://github.com/alchaincyf/nuwa-skill) | Distill real people's thinking patterns | Independent |
-| [Diting](https://github.com/EricArcha/diting-skill) | Distill fictional characters' performance style | This project |
-| Mengdie | Multi-perspective discussion orchestration | This project |
+| Skill | Repository | Purpose |
+|-------|------------|---------|
+| [Nuwa](https://github.com/alchaincyf/nuwa-skill) | Independent | Distill real people's thinking patterns |
+| [Diting](https://github.com/EricArcha/diting-skill) | This project | Distill fictional characters' performance style |
+| Mengdie | This project | Multi-perspective discussion orchestration |
 
 | | Nuwa | Diting | Mengdie |
 |---|---|---|---|
 | Captures | HOW they think | HOW they behave | HOW they discuss |
 | Source | Real people | Fictional characters | Orchestrates others |
 | Output | Thinking framework | Performance script | Discussion outcomes |
-
----
 
 ## Quality Standards
 
@@ -92,9 +101,6 @@ mengdie/
 ├── README.md                   # Chinese version
 ├── README_en.md                # English version
 ├── references/                 # Reference templates
-│   ├── round-table-template.md
-│   ├── moderation-protocol.md
-│   └── conclusion-format.md
 ├── output/discussions/          # Discussion records
 └── LICENSE                     # MIT License
 ```

@@ -1,6 +1,6 @@
-# Contributing to Mengdie
+# Contributing to Mengdie Roundtable
 
-Welcome! Mengdie is an open-source Claude Code skill for multi-perspective discussion orchestration.
+Welcome! Mengdie Roundtable is an open-source Claude Code skill for multi-perspective discussion orchestration.
 
 ## How to Contribute
 
