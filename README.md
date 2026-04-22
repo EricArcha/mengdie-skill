@@ -1,4 +1,7 @@
-# 梦蝶 (MENGDIE)
+# 梦蝶 (Mengdie)
+
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+[![Claude Code Skill](https://img.shields.io/badge/Claude%20Code-Skill-7B68EE?style=flat)](https://claude.com/claude-code)
 
 多视角讨论Skill。协调多个视角Skill进行讨论，产出共识结论+多元观点阵列+保留分歧点。
 
