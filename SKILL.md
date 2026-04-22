@@ -403,6 +403,7 @@ description: |
 
 ---
 **记录生成**：梦蝶（Mengdie）Skill
+**仓库**：https://github.com/EricArcha/mengdie-skill
 **生成时间**：[时间戳]
 ```
 
